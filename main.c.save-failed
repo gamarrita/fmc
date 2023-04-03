@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "fmc.h"
+#include "fm_factory.h"
+
+int fm_lcd_u32_to_str(uint32_t num, uint8_t length, char leading_char, char *p_str);
+int fm_fp_to_str(uint32_t fm_fp_u32_t, uint8_t length, char leading_char, char *p_str);
+
+
+
+#define BUFFER_LENGTH 20
+
+
+
+int main()
+{
+    char buffer_acm[BUFFER_LENGTH];
+
+    fmc_totalizer_t acm;
+    fmc_totalizer_t ttl;
+
+
+    acm = fm_factory_get_acm();
+    ttl = fm_factory_get_ttl();
+
+    fm_lcd_u32_to_str(acm.volume.num, BUFFER_LENGTH, '0', buffer_acm);
+
+    printf("ACM = %s", buffer_acm);
+    printf("TTL = %u\n", ttl.volume.num);
+    return 0;
+}
+
+
+int fm_lcd_u32_to_str(uint32_t num, uint8_t length, char leading_char, char *p_str)
+{
+
+    if(length == 0)
+    {
+        return -1;
+    }
+
+    p_str[0] = 0;
+
+    while(num)
+    {
+        p_str[length - 1] = num%10;
+        num /= 10;
+        length--;
+    }
+
+    while(length)
+    {
+        p_str[length - 1] = leading_char;
+    }
+}

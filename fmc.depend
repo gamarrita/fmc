@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1680315651 source:d:\dropbox (flowmeet)\flowmeet\id\equipos\fmc-320a\desarrollo\firmware\test\dhs_fmc\fmc\fm_fp.c
+	"fm_fp.h"
+
+1680315633 d:\dropbox (flowmeet)\flowmeet\id\equipos\fmc-320a\desarrollo\firmware\test\dhs_fmc\fmc\fm_fp.h
+	<stdint.h>
+
+1680354179 source:d:\dropbox (flowmeet)\flowmeet\id\equipos\fmc-320a\desarrollo\firmware\test\dhs_fmc\fmc\fmc.c
+	"fmc.h"
+
+1680354071 d:\dropbox (flowmeet)\flowmeet\id\equipos\fmc-320a\desarrollo\firmware\test\dhs_fmc\fmc\fmc.h
+	<stdint.h>
+
+1680354130 source:d:\dropbox (flowmeet)\flowmeet\id\equipos\fmc-320a\desarrollo\firmware\test\dhs_fmc\fmc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fmc.h"
+	"fm_factory.h"
+
+1680350914 source:d:\dropbox (flowmeet)\flowmeet\id\equipos\fmc-320a\desarrollo\firmware\test\dhs_fmc\fmc\fm_factory.c
+	"fm_factory.h"
+	"fmc.h"
+
+1680273876 d:\dropbox (flowmeet)\flowmeet\id\equipos\fmc-320a\desarrollo\firmware\test\dhs_fmc\fmc\fm_factory.h
+	"fmc.h"
+
+1680458458 source:d:\githubs\fmc\fmc\fm_factory.c
+	"fm_factory.h"
+	"fmc.h"
+
+1680273876 d:\githubs\fmc\fmc\fm_factory.h
+	"fmc.h"
+
+1680458449 d:\githubs\fmc\fmc\fmc.h
+	<stdint.h>
+
+1680458449 source:d:\githubs\fmc\fmc\fmc.c
+	"fmc.h"
+
+1680458383 source:d:\githubs\fmc\fmc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fmc.h"
+	"lcd.h"
+	"fm_factory.h"
+
+1680455538 source:d:\githubs\fmc\fmc\lcd.c
+	"fmc.h"
+	"lcd.h"
+	"string.h"
+
+1680455463 d:\githubs\fmc\fmc\lcd.h
+
+1680523476 source:d:\githubs\fmc\fm_factory.c
+	"fm_factory.h"
+	"fmc.h"
+
+1680523476 d:\githubs\fmc\fm_factory.h
+	"fmc.h"
+
+1680523476 d:\githubs\fmc\fmc.h
+	<stdint.h>
+
+1680523476 source:d:\githubs\fmc\fmc.c
+	"fmc.h"
+
+1680523476 source:d:\githubs\fmc\lcd.c
+	"fmc.h"
+	"lcd.h"
+	"string.h"
+
+1680523476 d:\githubs\fmc\lcd.h
+
+1680523476 source:d:\githubs\fmc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fmc.h"
+	"lcd.h"
+	"fm_factory.h"
+
